@@ -5,6 +5,7 @@
     padding: 0%;
     margin: 0%;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 :root {
@@ -19,20 +20,27 @@
     --font-primaria: 'Poppins', sans-serif;
 }
 
-.topo{
-    background-color: var(--cor-secundaria);
+.body{
+    background-color: var(--cor-branco);
 }
 
 .cabecalho {
     display: flex;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-branco);
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     padding: 0% 3%;
 }
 
 .bi {
     margin-right: 10px;
+    width: 7%;
+    height: 7%;
+    color: var(--cor-primaria);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .cabecalho__titulo {
@@ -52,6 +60,7 @@
     background-color: var(--cor-primaria);
     color: var(--cor-branco);
     height: auto;
+    transition: 1s;
 }
 
 .botao {
@@ -61,4 +70,66 @@
     font-family: var(--font-primaria);
     padding: 5px 15px;
     font-size: 0.8rem;
+}
+
+.hero {
+    background-image: url(imagens/header.jpg);
+    background-size: cover;
+    height: 21.5rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__titulo3 {
+    color: var(--cor-primaria);
+    font-family: var(--font-primaria);
+    font-size: 1.8rem;
+    font-weight: 800;
+    align-self: center;
+    margin-top: 5%;
+}
+
+.hero__titulo1 {
+    color: var(--cor-branco);
+    font-family: var(--font-primaria);
+    font-size: 3rem;
+    font-weight: 800;
+    align-self: center;
+    margin-top: 1%;
+}
+
+.hero .hero__form {
+    align-self: center;
+    margin-top: 2%;
+}
+
+.btn-label {
+    padding: 8px 15px ;
+}
+
+.form {
+    display: flex;
+    background-color: var(--cor-secundaria);
+    margin-top: 2%;
+}
+
+.form__container {
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.form__card .card-body, .form__card .card-body .card {
+    background-color: var(--cor-secundaria);
+}
+
+.cards {
+    display: flex;
+}
+
+.cards .card {
+    border: none;
+    justify-content:space-between ;
 }

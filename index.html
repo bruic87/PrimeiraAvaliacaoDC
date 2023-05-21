@@ -10,7 +10,7 @@
 </head>
 <body>
    <nav class="cabecalho">
-        <h1 class="cabecalho__titulo"><i class="bi bi-truck"></i>FASTER</h1>
+        <h1 class="cabecalho__titulo"><img class="bi" src="imagens/icone-orange-camion.png" alt="icone caminhao laranja">FASTER</h1>
         <div class="cabecalho__meio mx-auto p-2">    
             <ul class="nav justify-content-center">
                 <li class="nav-item">
@@ -44,40 +44,43 @@
         </div>
     </nav>
     <main>
-        <section>
-            <h3>Safe & Faster</h3>
-            <h1>Logistics Services</h1>
-            <form class="row row-cols-lg-auto g-3 align-items-center">
-                <div class="col-12">
-                  <label class="visually-hidden" for="inlineFormInputGroupUsername">Track id</label>
+        <section class="hero">
+            <h3 class="hero__titulo3">Safe & Faster</h3>
+            <h1 class="hero__titulo1">Logistics Services</h1>
+            <form class="hero__form row row-cols-lg-auto g-0 align-items-center">
+                <div class="col-13">
+                  <label class="visually-hidden" for="trackid">Track id</label>
                   <div class="input-group">
-                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Track id">
+                    <input type="text" class="form-control" id="trackid" placeholder="Track id">
                   </div>
                 </div>  
                 <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Track & Trace</button>
+                  <button type="submit" class="botao btn-label">Track & Trace</button>
                 </div>
               </form>
         </section>
-        <section>
-            <div class="card">
+        <section class="form">
+          <div class="form__container">
+            <div class="form__card">
                 <div class="card-body">
                   <h5>GET A QUOTE</h5>
                   <h3>Request A Free Quote</h3>
                   <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis necessitatibus eum, maiores ex sit quam consequatur placeat, eveniet ullam ipsa repellendus est alias adipisci delectus saepe facilis at totam minima.
                   </p>
-                  <div class="card">
-                    <h3>225</h3>
-                    <h5>Skilled Experts</h5>
-                  </div>
-                  <div class="card">
-                    <h3>1050</h3>
-                    <h5>Happy Clients</h5>
-                  </div>
-                  <div class="card">
-                    <h3>2500</h3>
-                    <h5>Complete Projects</h5>
+                  <div class="cards">
+                    <div class="card">
+                      <h3>225</h3>
+                      <h5>Skilled Experts</h5>
+                    </div>
+                    <div class="card">
+                      <h3>1050</h3>
+                      <h5>Happy Clients</h5>
+                    </div>
+                    <div class="card">
+                      <h3>2500</h3>
+                      <h5>Complete Projects</h5>
+                    </div>
                   </div>
                 </div>
             </div>
@@ -96,6 +99,7 @@
                   <button type="submit" class="btn btn-primary">Get a Quote</button>
                 </div>
               </form>
+            </div>
         </section>
         <section>
             <h5>PRICING PLAN</h5>
