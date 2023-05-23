@@ -23,13 +23,36 @@
 body {
     display: grid;
     grid-template-areas: 
-        "header header header"
+        "header"
         "main"
-        "main main"
-        "main main main"
-        "main main main main"
-        "main main"
-        "footer footer footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto 100vh 100vh 100vh 100vh 100vh auto;
+        "footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: var(--cor-branco);
+}
+
+.cabecalho {
+    grid-area: header;
+}
+
+.principal {
+    grid-area: main;
+}
+
+.rodape {
+    grid-area: footer;
+}
+
+.cabecalho__img {
+    width: 4rem;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.cabecalho__titulo {
+    color: var(--cor-primaria);
+    font-family: var(--font-primaria);
+    font-weight: 900;
 }
