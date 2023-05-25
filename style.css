@@ -34,8 +34,7 @@
 
 .bi {
     margin-right: 10px;
-    width: 7%;
-    height: 7%;
+    width: 3rem;
     color: var(--cor-primaria);
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -49,6 +48,10 @@
     color: var(--cor-primaria);
 }
 
+.cabecalho__meio {
+    align-self: center;
+}
+
 .nav-item .nav-link {
     color: var(--cor-cinzaescuro);
     font-family: var(--font-primaria);
@@ -60,7 +63,7 @@
     background-color: var(--cor-primaria);
     color: var(--cor-branco);
     height: auto;
-    transition: 1s;
+    transition: 0.2s;
 }
 
 .botao {
@@ -106,13 +109,12 @@
 }
 
 .btn-label {
-    padding: 8px 15px ;
+    padding: 0.5rem 1rem ;
 }
 
-.form {
+.input-group {
     display: flex;
-    background-color: var(--cor-secundaria);
-    margin-top: 2%;
+    background-color: var(--cor-branco);
 }
 
 .form__container {
