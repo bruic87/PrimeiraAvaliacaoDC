@@ -6,6 +6,7 @@
     margin: 0%;
     text-decoration: none;
     box-sizing: border-box;
+    list-style-type: none ;
 }
 
 :root {
@@ -21,30 +22,11 @@
 }
 
 body {
-    display: grid;
-    grid-template-areas: 
-        "header"
-        "main"
-        "footer";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
     background-color: var(--cor-branco);
 }
 
-.cabecalho {
-    grid-area: header;
-}
-
-.principal {
-    grid-area: main;
-}
-
-.rodape {
-    grid-area: footer;
-}
-
 .cabecalho__img {
-    width: 4rem;
+    width: 3rem;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -55,9 +37,9 @@ body {
     color: var(--cor-primaria);
     font-family: var(--font-primaria);
     font-weight: 900;
+    text-decoration: none;
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
+.cabecalho {
+    background-color: #FF4800;
 }
