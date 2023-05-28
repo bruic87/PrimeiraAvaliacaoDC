@@ -205,3 +205,41 @@
     flex-direction: column;
     gap: 0.8rem;
 }
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem ;
+}
+
+.prices__container {
+    display: flex;
+    justify-content:center;
+    gap: 1.5rem;
+}
+
+.prices__subtitle {
+    margin-top: 2rem;
+    color: var(--cor-primaria);
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+
+.prices__title {
+    color: var(--cor-preta);
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.prices_-container .card {
+    border: transparent;
+}
+
+.card .card-body {
+    background-color: var(--cor-secundaria);
+    border: transparent;
+    font-family: var(--font-primaria);
+    font-size: 0.8rem;
+    color: var(--cor-cinza);
+}
