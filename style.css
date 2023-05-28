@@ -15,6 +15,7 @@
     --cor-cinzaescuro: #343a40;
     --cor-laranja: #fd7e14;
     --cor-preta: #1f1f2e;
+    --cor-full-preto: #000;
     --cor-cinza: #6c757d;
 
     --font-primaria: 'Poppins', sans-serif;
@@ -221,25 +222,49 @@
 
 .prices__subtitle {
     margin-top: 2rem;
-    color: var(--cor-primaria);
+    color: var(--cor-full-preto);
     font-weight: 900;
     font-size: 0.8rem;
+    
 }
 
 .prices__title {
-    color: var(--cor-preta);
+    color: var(--cor-full-preto);
     font-weight: 900;
     margin-bottom: 1.5rem;
 }
 
-.prices_-container .card {
-    border: transparent;
-}
-
-.card .card-body {
+.container__card .card-body {
     background-color: var(--cor-secundaria);
     border: transparent;
     font-family: var(--font-primaria);
     font-size: 0.8rem;
+    color: var(--cor-full-preto);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.card-body h6 {
+    background-color: var(--cor-primaria);
+    font-size: 1.2rem;
+    color: var(--cor-full-preto);
+    font-weight: 700;
+    padding: 0.9rem 0;
+    margin-top: 0.8rem;
+    width: 100%;
+}
+
+.card-body p {
     color: var(--cor-cinza);
+}
+
+.card-body a {
+    text-decoration: none;
+    color: var(--cor-branco);
+    background-color: var(--cor-primaria);
+    width: 6rem;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.6rem;
 }
