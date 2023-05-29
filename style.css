@@ -222,7 +222,7 @@
 
 .prices__subtitle {
     margin-top: 2rem;
-    color: var(--cor-full-preto);
+    color: var(--cor-primaria);
     font-weight: 900;
     font-size: 0.8rem;
     
@@ -267,4 +267,53 @@
     width: 6rem;
     padding: 0.4rem 0.5rem;
     font-size: 0.6rem;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.team__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+}
+
+.team__card {
+    background-color: var(--cor-secundaria);
+    padding-bottom: 1rem;
+    border-bottom: solid var(--cor-primaria) 0.3rem;
+}
+
+.team__card img {
+    width: 11.5rem;
+}
+
+.team__subtitle {
+    margin-top: 2rem;
+    color: var(--cor-primaria);
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+
+.team__title {
+    color: var(--cor-full-preto);
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.team__card h5 {
+    font-size: 0.8rem;
+    color: var(--cor-preta);
+    font-weight: 700;
+    margin-top: 0.8rem;
+}
+
+.team__card p {
+    font-size: 0.6rem;
+    color: var(--cor-cinza);
 }
