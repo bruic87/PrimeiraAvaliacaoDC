@@ -355,7 +355,7 @@
 
 .container__body {
     background-color: var(--cor-secundaria);
-    padding: 1.2rem;
+    padding: 1.5rem 1.2rem;
     text-align: left;
 }
 
@@ -364,3 +364,77 @@
     flex-direction: row;
 }
 
+.user__img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.user__title {
+    color: var(--cor-cinza);
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+}
+
+.head__icon {
+    color: var(--cor-primaria);
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.head__icon p {
+    color: var(--cor-cinza);
+    font-weight: 400;
+}
+
+.body__head {
+    position: relative;
+}
+
+.head__date {
+    background-color: var(--cor-primaria);
+    text-align: center;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: -45px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.head__date .month {
+    color: var(--cor-branco);
+    font-size: 0.6rem;
+}
+
+.head__date .day {
+    color: var(--cor-full-preto);
+    font-size: 1rem;
+    font-weight: 800;
+    margin: auto;
+}
+
+.container__body .card-title {
+    color: var(--cor-preta);
+    font-family: var(--font-primaria);
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.container__body .card-text {
+    color: var(--cor-cinza);
+    font-size: 0.8rem;
+    text-align: left;
+    margin-bottom: 0.8rem;
+}
+
+.obotao {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: 0.8rem;
+    margin: auto;
+    border-bottom: solid 0.1rem var(--cor-primaria);
+}
