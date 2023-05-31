@@ -529,4 +529,21 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 1rem 2rem;
+    font-size: 0.6rem;
+    justify-content: space-between;
+}
+
+.ft-1 p {
+    margin:0%
+}
+
+.ft-1 span {
+    color: var(--cor-primaria);
+}
+
+.ft-2 a{
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 0.6rem;
+    margin-right: 0.4rem;
 }
