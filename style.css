@@ -453,6 +453,7 @@ footer {
     flex-direction: row;
     padding: 4rem 2rem;
     justify-content: space-between;
+    border-bottom: 0.1rem solid var(--cor-cinza);
 }
 
 .f-icon {
@@ -485,12 +486,47 @@ footer {
     width: 30vw;
     display: flex;
     flex-direction: column;
-
+    margin-right: 8rem;
 }
 
 .f-2 a {
     font-size: 0.8rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
     text-decoration: none;
     color: var(--cor-branco);
+}
+
+.f-3 {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-3 p {
+    color: var(--cor-branco);
+    font-size: 0.8rem;
+}
+
+.f-3 form {
+    display: flex;
+    flex-direction: row;
+}
+
+.f-3 .input-group {
+    width: 24rem;
+    font-size: 0.8rem;
+}
+
+.f-btn {
+    border: none;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
 }
